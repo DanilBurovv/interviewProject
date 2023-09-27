@@ -1,0 +1,43 @@
+.about {
+  background: linear-gradient($schoolBusYellow, $selectiveYellow);
+  margin-top: 100px;
+  padding: 50px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-container {
+  max-width: 870px;
+  @include e(heading) {
+    font-weight: $extraBoldFontWeight;
+    font-size: 39px;
+    margin: 5px 0 0 0;
+  }
+  @include e(content) {
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  @include e(title) {
+    font-weight: $boldFontWeight;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+  @include e(links) {
+    display: flex;
+  }
+  @include e(span) {
+    font-weight: $boldFontWeight;
+  }
+  @include e(img-link) {
+    max-height: 66px;
+    margin-right: 50px;
+    @include m(third) {
+      margin-top: 15px;
+    }
+  }
+  @include e(img) {
+    max-height: 427px;
+    margin-right: 47px;
+  }
+}
