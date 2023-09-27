@@ -1,0 +1,96 @@
+.post-top {
+  margin-top: 45px;
+}
+.slider-top {
+  position: relative;
+  height: 800px;
+  padding: 0;
+  padding-top: 70px;
+  @include e(content-container) {
+    margin-left: 75px;
+  }
+  @include e(content) {
+    font-weight: $boldFontWeight;
+    font-size: 19px;
+    margin: 0;
+    margin-bottom: 5px;
+    @include m(second) {
+      line-height: 30px;
+      margin-bottom: 45px;
+    }
+  }
+  @include e(heading) {
+    font-size: 79px;
+    font-weight: $blackFontWeight;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 99px;
+  }
+  @include e(btn) {
+    font-weight: $boldFontWeight;
+    font-size: 19px;
+    background: linear-gradient($schoolBusYellow, $selectiveYellow);
+    padding: 20px 67px;
+  }
+  @include e(link) {
+    text-decoration: none;
+    color: $black;
+  }
+  @include e(img) {
+    position: absolute;
+    top: 95px;
+    right: 80px;
+  }
+  @include e(vector) {
+    z-index: -1;
+    position: absolute;
+    @include m(first) {
+      top: 50px;
+      right: 0;
+    }
+    @include m(second) {
+      top: 0;
+      right: 637px;
+    }
+    @include m(third) {
+      top: 380px;
+      left: 596px;
+    }
+    @include m(fourth) {
+      top: 0;
+      left: 0;
+    }
+    @include m(fifth) {
+      top: 420px;
+      right: 795px;
+    }
+  }
+}
+
+.slick-dots li img:nth-child(1) {
+  display: block;
+}
+
+.slick-dots li img:nth-child(2) {
+  display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(1) {
+  display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(2) {
+  display: block;
+}
+
+.slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+}
+
+.slick-dots li {
+  list-style-type: none;
+  margin-right: 17px;
+}

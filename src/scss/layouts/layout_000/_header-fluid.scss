@@ -11,6 +11,9 @@
     font-size: 19px;
     font-weight: $mediumFontWeight;
     color: $black;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   @include e(item) {
     margin-right: 100px;
@@ -49,4 +52,7 @@
   font-size: 26px;
   font-weight: $boldFontWeight;
   margin-left: -3px;
+  &:hover {
+    cursor: pointer;
+  }
 }
