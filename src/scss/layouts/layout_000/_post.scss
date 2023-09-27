@@ -1,0 +1,40 @@
+.post-container {
+  margin-top: 143px;
+}
+.post {
+  display: flex;
+  margin-top: 55px;
+  @include e(title) {
+    font-size: 38px;
+    font-weight: $extraBoldFontWeight;
+  }
+  @include e(content-container) {
+    max-width: 830px;
+    max-height: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    overflow: auto;
+  }
+  @include e(content) {
+    font-size: 19px;
+    line-height: 36px;
+  }
+  @include e(span) {
+    font-weight: $boldFontWeight;
+  }
+  @include e(img) {
+  }
+}
+
+.post__content-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.post__content-container::-webkit-scrollbar-thumb {
+  background-color: $supernova;
+  border-radius: 2px;
+}
+
+.post__content-container::-webkit-scrollbar-thumb:hover {
+  background-color: $selectiveYellow;
+}

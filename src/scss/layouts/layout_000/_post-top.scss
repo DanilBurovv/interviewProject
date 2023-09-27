@@ -39,7 +39,7 @@
   @include e(img) {
     position: absolute;
     top: 95px;
-    right: 80px;
+    right: 60px;
   }
   @include e(vector) {
     z-index: -1;
@@ -67,7 +67,7 @@
   }
   @include e(link-info) {
     position: absolute;
-    right: 47%;
+    right: 46%;
     bottom: 0;
     color: $black;
     font-size: 14px;
