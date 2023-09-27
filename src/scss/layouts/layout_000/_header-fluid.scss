@@ -1,0 +1,52 @@
+.navbar {
+  margin-top: 17px;
+  display: flex;
+}
+
+.menu {
+  margin-top: 9px;
+  margin-left: 113px;
+  @include e(link) {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: $mediumFontWeight;
+    color: $black;
+  }
+  @include e(item) {
+    margin-right: 100px;
+  }
+}
+
+.menu-desktop {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu__item:last-child {
+  margin-right: 115px;
+}
+
+.header-links {
+  display: flex;
+  @include e(container) {
+    margin-top: 18px;
+  }
+  @include e(link) {
+    margin-right: 8px;
+  }
+}
+
+.number-form {
+  margin-left: 33px;
+  margin-top: -4px;
+  @include e(content) {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.header-currency {
+  font-size: 26px;
+  font-weight: $boldFontWeight;
+  margin-left: -3px;
+}

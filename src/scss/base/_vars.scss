@@ -1,9 +1,13 @@
 //fonts
-$google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
+$google-font: "https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800;900";
 $prefix: prefix- !default;
 $baseFontSize: 16px;
-$baseFontFamily: "Ubuntu", sans-serif;
-$mediumFontWeight: 500;
+$baseFontFamily: "Figtree", sans-serif;
+$regularFontWeight: 400;
+$mediumFontWeight: 600;
+$boldFontWeight: 700;
+$extraBoldFontWeight: 800;
+$blackFontWeight: 900;
 
 $mobilePadding: (12px / $baseFontSize) * 1rem;
 $desktopPadding: 1rem;
@@ -15,20 +19,18 @@ $fontsPath: "../fonts/";
 $usersFilesPath: "../userfiles/";
 
 // Colors
-$black: #000000;
+$black: #333333;
 $white: #ffffff;
-$blue: #0d6efd !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #d63384 !default;
-$red: #dc3545 !default;
+$schoolBusYellow: #ffdf00;
+$selectiveYellow: #ffb800;
+$supernova: #ffd00e;
+$red: #eb0028;
 
 $colors: (
   "black": $black,
   "white": $white,
-  "blue": $blue,
-  "indigo": $indigo,
-  "purple": $purple,
-  "pink": $pink,
+  "schoolBusYellow": $schoolBusYellow,
+  "selectiveYellow": $selectiveYellow,
+  "supernova": $supernova,
   "red": $red,
 ) !default;
